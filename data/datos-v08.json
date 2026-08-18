@@ -1,0 +1,8176 @@
+{
+  "subjects": {
+    "ADMINISTRACIÓN DE LA PRODUCCIÓN Y MANTENIMIENTO (A0075) A0075": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "ADOLESCENCIA Y EDUCACIÓN SECUNDARIA (A0574) A0574": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "ADQUISICIÓN E HISTORIA DE LA LENGUA (A0495) A0495": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "AGROECOLOGÍA (A0022) A0022": {
+      "COM-01": []
+    },
+    "ALGEBRA I (A0023) A0023": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ALGEBRA II (A0024) A0024": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "20:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "ALGEBRA LINEAL (A0025) A0025": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "16:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ANÁLISIS DE DATOS PARA LA TOMA DE DECISIONES I (A0750) A0750": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ANÁLISIS MATEMÁTICO (A0026) A0026": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "ANÁLISIS NUMÉRICO (A0027) A0027": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "ANÁLISIS POLÍTICO (A0028) A0028": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ANÁLISIS SOCIAL DE LA ARGENTINA CONTEMPORÁNEA (A0029) A0029": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "ANÁLISIS TERRITORIAL I (A0092) A0092": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "ANTROPOLOGÍA FILOSÓFICA (A0176) A0176": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "APRENDIZAJE ESCOLAR (A0575) A0575": {
+      "COM-01": [],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ARTES AUDIOVISUALES II (A0031) A0031": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ARTES ESCÉNICAS I (A0032) A0032": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ARTES VISUALES II (A0035) A0035": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "AUTOMATIZACIÓN AVANZADA (A0674) A0674": {
+      "COM-01": []
+    },
+    "AUTOMATIZACIÓN INDUSTRIAL I (A0437) A0437": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "AUTOMATIZACIÓN INDUSTRIAL II (A0094) A0094": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "BASES DE DATOS I (A0524) A0524": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "BASES DE DATOS II (A0532) A0532": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "CÁLCULO EN VARIAS VARIABLES (A0038) A0038": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "CÁLCULO I (A0039) A0039": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "CÁLCULO II (A0040) A0040": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "CÁLCULO PARA COMPUTACIÓN (A0551) A0551": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "CALIDAD Y CONTROL ESTADÍSTICO DE PROCESOS (A0691) A0691": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "CARTOGRAFÍA, SENSORES REMOTOS Y SISTEMAS DE INFORMACIÓN GEOGRÁFICA (A0041) A0041": {
+      "COM-01": []
+    },
+    "CIENCIA DE LOS MATERIALES (A0042) A0042": {
+      "COM-01": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "14:59"
+        }
+      ]
+    },
+    "CIRCUITOS ELÉCTRICOS (A0357) A0357": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "CIUDAD Y AMBIENTE (A0043) A0043": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "CLIMATOLOGÍA (A0504) A0504": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "COMUNICACIÓN MASIVA Y MATRICES CULTURALES (A0045) A0045": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "CONCEPCIONES DE LA COMUNICACIÓN (A0047) A0047": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "INFORMACIÓN GEOGRÁFICA": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "COSTOS INDUSTRIALES (A0049) A0049": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "COSTOS PARA LA TOMA DE DECISIONES (A0742) A0742": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "CREACIÓN Y DESARROLLO DE EMPRESAS (A0293) A0293": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "CUENTAS NACIONALES (A0050) A0050": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "CUESTIONES AMBIENTALES CONTEMPORÁNEAS (A0426) A0426": {
+      "COM-01": []
+    },
+    "CULTURAS POPULARES, CREENCIAS E INTERCULTURALIDAD (A0052) A0052": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "DERECHO ADMINISTRATIVO (A0053) A0053": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "DERECHO I: DERECHO POLÍTICO Y CONSTITUCIONAL (A0054) A0054": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "DERECHO URBANÍSTICO Y AMBIENTAL (A0056) A0056": {
+      "COM-01": []
+    },
+    "DERECHO Y LEGISLACIÓN PROFESIONAL (A0058) A0058": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "A0060": {
+      "COM-01": []
+    },
+    "DESAFÍOS DE LA PROFESIÓN DOCENTE EN LA ESCUELA SECUNDARIA Y EN EL NIVEL SUPERIOR A0060": {
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "DESARROLLO AVANZADO DE MICROCONTROLADORES (A0412) A0412": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "DESARROLLO DE PROYECTOS II (A0635) A0635": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "DESARROLLO Y GESTIÓN DE PROYECTOS EMPRENDEDORES (A0519) A0519": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "DIRECCIÓN ESTRATÉGICA (A0365) A0365": {
+      "COM-01": []
+    },
+    "DISEÑO ASISTIDO (A0668) A0668": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "10:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "DISEÑO DE ESTRUCTURAS Y PROCESOS EN EL SECTOR PÚBLICO (A0073) A0073": {
+      "COM-01": []
+    },
+    "DISEÑO ESTRUCTURAL Y PROCESOS (A0074) A0074": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ECOLOGÍA DE POBLACIONES Y COMUNIDADES (A0051) A0051": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ECOLOGÍA URBANA (A0079) A0079": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "17:59"
+        }
+      ]
+    },
+    "ECONOMETRÍA (A0080) A0080": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ECONOMÍA CLÁSICA (A0081) A0081": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "ECONOMÍA KEYNESIANA (A0085) A0085": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ECONOMÍA NEOCLÁSICA (A0086) A0086": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ECONOMÍA POLÍTICA E INTERNACIONAL (A0089) A0089": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "ECONOMÍA URBANA Y REGIONAL (A0090) A0090": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ECUACIONES DIFERENCIALES (INGENIERÍAS Y FÍSICA) (A0066) A0066": {
+      "COM-01": []
+    },
+    "ECUACIONES DIFERENCIALES (MATEMÁTICA) (A0110) A0110": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ELECTRICIDAD Y MAGNETISMO (A0095) A0095": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ELECTROMAGNETISMO (A0096) A0096": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ELECTRÓNICA ANALÓGICA Y DIGITAL (A0435) A0435": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ELECTRÓNICA I (A0097) A0097": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ELECTROTECNIA APLICADA (A0099) A0099": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ELECTROTECNIA Y MÁQUINAS ELÉCTRICAS (A0100) A0100": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "ELEMENTOS DE ÁLGEBRA LINEAL (A0666) A0666": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ]
+    },
+    "ELEMENTOS DE CÁLCULO (A0663) A0663": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Lunes",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "16:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Lunes",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ELEMENTOS DE PREHISTORIA E HISTORIA DE ORIENTE, HISTORIA ANTIGUA Y ALTOMEDIEVAL A0102": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "13:59"
+        },
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "13:59"
+        },
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "17:59"
+        }
+      ]
+    },
+    "ELEMENTOS DE QUÍMICA ORGÁNICA, ANALÍTICA Y BIOLÓGICA (A0103) A0103": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "EMPRESAS PÚBLICAS (A0516) A0516": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "ENSEÑANZA DE LA ECONOMÍA (A0104) A0104": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ENSEÑANZA DE LA FILOSOFÍA (A0105) A0105": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ENSEÑANZA DE LA FÍSICA (A0106) A0106": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ENSEÑANZA DE LA GEOGRAFÍA (A0506) A0506": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ENSEÑANZA DE LA HISTORIA (A0107) A0107": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "ENSEÑANZA DE LA LENGUA Y LA LITERATURA (A0489) A0489": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ENSEÑANZA DE LA MATEMÁTICA II (A0109) A0109": {
+      "COM-01": []
+    },
+    "ENSEÑAR EN LA ESCUELA SECUNDARIA Y EN EL NIVEL SUPERIOR (A0113) A0113": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "13:00"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "EPISTEMOLOGÍA DE LA GEOGRAFÍA (A0499) A0499": {
+      "COM-01": []
+    },
+    "ESPECIFICACIÓN DE SOFTWARE (A0436) A0436": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "ESPECIFICACIONES Y VERIFICACIÓN DE SOFTWARE (A0525) A0525": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "ESTADÍSTICA APLICADA A LAS CIENCIAS SOCIALES (A0544) A0544": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ESTADÍSTICA APLICADA (INGENIERÍAS) (A0766) A0766": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ESTADÍSTICA PARA ECONOMISTAS (A0541) A0541": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ESTADÍSTICA (PROFESORADO EN MATEMÁTICA) (A0471) A0471": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ESTADO, ADMINISTRACIÓN Y POLÍTICAS PÚBLICAS (A0116) A0116": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ESTADO Y ADMINISTRACIÓN PÚBLICA EN LA ARGENTINA (A0115) A0115": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ESTÁTICA Y RESISTENCIA DE MATERIALES (A0117) A0117": {
+      "COM-01": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "14:59"
+        }
+      ]
+    },
+    "ESTÉTICA (A0118) A0118": {
+      "COM-01": []
+    },
+    "ESTRUCTURA JURÍDICA DEL ESTADO (A0121) A0121": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ESTRUCTURAS Y ACTORES POLÍTICOS (A0122) A0122": {
+      "COM-01": []
+    },
+    "ESTUDIOS DE LA LITERATURA CONTEMPORÁNEA (A0484) A0484": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ESTUDIOS DE LA LITERATURA MEDIEVAL, RENACENTISTA Y BARROCA (A0481) A0481": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "ESTUDIOS DE LA LITERATURA MODERNA (A0482) A0482": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ]
+    },
+    "ESTUDIOS GRAMATICALES (A0485) A0485": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "09:00",
+          "end": "12:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ETICA (A0124) A0124": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "ÉTICA, DERECHO Y LEGISLACIÓN PROFESIONAL (A0671) A0671": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "EVALUACIÓN DE POLÍTICAS PÚBLICAS Y PROGRAMAS SOCIALES (A0125) A0125": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "FENÓMENOS DE TRANSPORTE (INGENIERÍA) (A0725) A0725": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "FILOSOFÍA ANTIGUA Y MEDIEVAL (A0126) A0126": {
+      "COM-01": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "12:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "FILOSOFÍA CONTEMPORÁNEA (A0127) A0127": {
+      "COM-01": []
+    },
+    "FILOSOFÍA DE LA CIENCIA (A0128) A0128": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "FILOSOFÍA DEL DERECHO Y CIUDADANÍA (A0129) A0129": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "FILOSOFÍA ESPECIAL II (A0131) A0131": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "FILOSOFÍA MODERNA (A0132) A0132": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "15:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "FILOSOFÍA POLÍTICA (A0133) A0133": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "FINANZAS PÚBLICAS (A0135) A0135": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "FÍSICA GENERAL (A0137) A0137": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "FÍSICA I (A0138) A0138": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "FÍSICA II (A0139) A0139": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "FÍSICA II (INGENIERÍAS) (A0720) A0720": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "FÍSICA INICIAL (A0667) A0667": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ]
+    },
+    "FISICOQUÍMICA (A0555) A0555": {
+      "COM-01": []
+    },
+    "FORMULACIÓN, GESTIÓN Y EVALUACIÓN DE PROYECTOS (A0140) A0140": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS DE INVERSIÓN (A0705) A0705": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "FUNDAMENTOS DE PROGRAMACIÓN (A0665) A0665": {
+      "COM-01": [],
+      "COM-02": [],
+      "COM-03": [],
+      "COM-04": []
+    },
+    "FUNDAMENTOS DE PSICOLOGÍA (A0775) A0775": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GEOGRAFÍA FÍSICA (A0145) A0145": {
+      "COM-01": [],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GEOGRAFÍA RURAL (A0505) A0505": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GEOGRAFÍA SOCIAL Y ECONÓMICA DE AMÉRICA LATINA (A0509) A0509": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GEOGRAFÍA SOCIAL Y ECONÓMICA DE LOS ESPACIOS MUNDIALES (A0510) A0510": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GEOGRAFÍA URBANA Y REGIONAL (A0146) A0146": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GEOMETRÍA II (A0148) A0148": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GEOMORFOLOGÍA (A0503) A0503": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GESTIÓN DE LA CALIDAD Y LA MEJORA CONTINUA (A0710) A0710": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GESTIÓN DE LOS RECURSOS ENERGÉTICOS (A0151) A0151": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GESTIÓN DE PROYECTOS (A0538) A0538": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GESTIÓN DE RECURSOS HUMANOS (A0153) A0153": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "GESTIÓN DE RECURSOS HUMANOS EN EL SECTOR PÚBLICO (A0154) A0154": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "GESTIÓN DE RECURSOS RENOVABLES (A0156) A0156": {
+      "COM-01": []
+    },
+    "GESTIÓN EN ECONOMÍA MIXTA (A0518) A0518": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "GESTIÓN LOGÍSTICA I (A0695) A0695": {
+      "COM-01": [
+        {
+          "day": "Sábado",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "GESTIÓN Y ADMINISTRACIÓN DE BASES DE DATOS (A0439) A0439": {
+      "COM-01": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "GOBIERNO Y ADMINISTRACIÓN DE LA EDUCACIÓN (A0161) A0161": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "HIGIENE, SEGURIDAD INDUSTRIAL Y MEDIO AMBIENTE (A0162) A0162": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "HISTORIA ARGENTINA CONTEMPORÁNEA (A0163) A0163": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "HISTORIA ARGENTINA I (A0164) A0164": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "12:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "20:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "HISTORIA ARGENTINA II (A0165) A0165": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Martes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "HISTORIA CONTEMPORÁNEA DE EUROPA (A0166) A0166": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "15:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "HISTORIA DE ÁFRICA (A0167) A0167": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "HISTORIA DE ASIA (A0168) A0168": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ]
+    },
+    "HISTORIA DE LA CIUDAD (A0169) A0169": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "HISTORIA DE LA EDUCACIÓN ARGENTINA (A0170) A0170": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "HISTORIA DE LA HISTORIOGRAFÍA (A0171) A0171": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "HISTORIA ECONÓMICA Y SOCIAL ARGENTINA (A0173) A0173": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "HISTORIA ECONÓMICA Y SOCIAL MUNDIAL Y LATINOAMERICANA (A0174) A0174": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-02": []
+    },
+    "HISTORIA LATINOAMERICANA CONTEMPORÁNEA (A0179) A0179": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "HISTORIA LATINOAMERICANA I (A0180) A0180": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ]
+    },
+    "HISTORIA LATINOAMERICANA II (A0181) A0181": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Viernes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "HISTORIA MEDIEVAL Y MODERNA (A0182) A0182": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "13:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "HISTORIA MODERNA Y CONTEMPORÁNEA (A0183) A0183": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Miércoles",
+          "start": "14:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "IMPLEMENTACIÓN DE POLÍTICAS PÚBLICAS (A0185) A0185": {
+      "COM-01": []
+    },
+    "INDUSTRIAS Y PROCESOS (A0186) A0186": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INFORMÁTICA APLICADA A LOS SISTEMAS DE INFORMACIÓN GEOGRAFICA, PARTE II (A0441) A0441": {
+      "COM-01": []
+    },
+    "INFORMÁTICA Y SOCIEDAD (A0536) A0536": {
+      "COM-01": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "INFRAESTRUCTURA Y SERVICIOS URBANOS: ENERGÍA (A0190) A0190": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INGENIERÍA DE LAS REACCIONES QUÍMICAS (A0727) A0727": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INGENIERÍA DE SOFTWARE (A0442) A0442": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "INGENIERÍA DE SOFTWARE I (A0527) A0527": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "INGENIERÍA DE SOFTWARE II (A0529) A0529": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INGENIERÍA FINANCIERA (A0192) A0192": {
+      "COM-01": []
+    },
+    "INGLÉS ACADÉMICO PROFESIONAL I (A0678) A0678": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "INGLÉS ACADÉMICO PROFESIONAL II (A0679) A0679": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "INGLÉS ACADÉMICO PROFESIONAL III (A0683) A0683": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "INGLÉS CON PROPÓSITOS ESPECÍFICOS I (A0416) A0416": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "INGLÉS CON PROPÓSITOS ESPECÍFICOS II (A0417) A0417": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "INGLÉS CON PROPÓSITOS ESPECÍFICOS III (A0418) A0418": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "INGLÉS CON PROPÓSITOS ESPECÍFICOS IV INGENIERIA (A0420) A0420": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "INGLÉS CON PROPÓSITOS ESPECÍFICOS V ECONOMÍA (A0422) A0422": {
+      "COM-01": [
+        {
+          "day": "Sábado",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "INGLÉS LECTOCOMPRENSIÓN I (A0193) A0193": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Miércoles",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Miércoles",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-10": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-12": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-13": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-15": [],
+      "COM-16": []
+    },
+    "INGLÉS LECTOCOMPRENSIÓN II (A0194) A0194": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-05": [],
+      "COM-06": [],
+      "COM-07": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "INGLÉS LECTOCOMPRENSIÓN III (A0195) A0195": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-02": [],
+      "COM-03": [],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "INSTALACIONES ELECTROMECÁNICAS I (A0685) A0685": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INSTALACIONES ELECTROMECÁNICAS II (A0675) A0675": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INSTALACIONES INDUSTRIALES A (A0197) A0197": {
+      "COM-01": []
+    },
+    "INSTALACIONES INDUSTRIALES (INGENIERÍA) (A0728) A0728": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INSTRUMENTACIÓN Y COMUNICACIONES INDUSTRIALES (A0443) A0443": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INSTRUMENTACIÓN Y CONTROL DE PROCESOS (A0687) A0687": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INSTRUMENTACIÓN Y CONTROL INDUSTRIAL (A0199) A0199": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INTRODUCCIÓN A LA COMUNICACIÓN (A0200) A0200": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "INTRODUCCIÓN A LA CUÁNTICA Y A LA RELATIVIDAD (A0201) A0201": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INTRODUCCIÓN A LA ECONOMÍA (A0202) A0202": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-10": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-11": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-12": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "14:59"
+        }
+      ]
+    },
+    "INTRODUCCIÓN A LA FÍSICA (A0068) A0068": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INTRODUCCIÓN A LA FÍSICA (INGENIERÍA) (A0067) A0067": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "INTRODUCCIÓN A LA GEOGRAFÍA (A0498) A0498": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INTRODUCCIÓN A LA LOGÍSTICA (A0693) A0693": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "INTRODUCCIÓN A LA MACROECONOMÍA (A0204) A0204": {
+      "COM-01": []
+    },
+    "INTRODUCCIÓN A LA MATEMÁTICA (A0205) A0205": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-10": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-11": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Martes",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-12": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Martes",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-13": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Martes",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-14": [
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Martes",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-15": [
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-16": [
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-17": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-18": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-19": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-20": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-21": [
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-22": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-23": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "16:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Martes",
+          "start": "16:00",
+          "end": "17:59"
+        }
+      ]
+    },
+    "INTRODUCCIÓN A LA PROGRAMACIÓN (A0444) A0444": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-10": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-11": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-12": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-13": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-14": [],
+      "COM-15": []
+    },
+    "INTRODUCCIÓN A LA SOCIOLOGÍA (A0650) A0650": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "INTRODUCCIÓN A LA TECNOLOGÍA DE PROCESOS (A0724) A0724": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "INTRODUCCIÓN A LOS ESTUDIOS DE LA LITERATURA (A0476) A0476": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Martes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "INTRODUCCIÓN AL EQUIPAMIENTO Y PROCESOS DE PLANTA (A0008) A0008": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "INVESTIGACIÓN OPERATIVA (A0206) A0206": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "LABORATORIO DE CONSTRUCCIÓN DE SOFTWARE (A0445) A0445": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "LABORATORIO II (A0013) A0013": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "09:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "LABORATORIO III (A0016) A0016": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "17:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "LABORATORIO INTERDISCIPLINARIO (CAPACIDADES EMPRENDEDORAS) (A0425) A0425": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "LABORATORIO INTERDISCIPLINARIO DE CAPACIDADES EMPRENDEDORAS (A0722) A0722": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "LABORATORIO INTERDISCIPLINARIO (DIAGNÓSTICO AMBIENTAL) (A0424) A0424": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "LABORATORIO INTERDISCIPLINARIO (REDES SOCIALES Y CONDICIONES DE VIDA: LAS A0423": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "LABORATORIO INTERDISCIPLINARIO (TEMAS DE GENEROS. DESIGUALDADES, DISIDENCIAS Y A0643": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "LAS BASES DE LA VIDA Y SU EVOLUCIÓN (A0210) A0210": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "LENGUAJE, COMUNICACIÓN Y CULTURA (A0475) A0475": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "14:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "LENGUAJE, COMUNICACIÓN Y CULTURA ESCRITA (A0477) A0477": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "LENGUAJE, CULTURA Y COMUNICACIÓN DE LA IMAGEN (A0542) A0542": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "14:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "15:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ]
+    },
+    "LITERATURA ARGENTINA: NARRATIVA (A0486) A0486": {
+      "COM-01": []
+    },
+    "LITERATURA ARGENTINA: TEATRO Y POESÍA (A0496) A0496": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "LITERATURA ESPAÑOLA (A0492) A0492": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "LITERATURA I (A0214) A0214": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "LÓGICA Y ARGUMENTACIÓN (A0216) A0216": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "LÓGICA Y TEORÍA DE NÚMEROS (A0446) A0446": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-07": []
+    },
+    "LOGÍSTICA INDUSTRIAL (A0217) A0217": {
+      "COM-01": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "LOS ORGANISMOS EN FUNCIONAMIENTO (A0218) A0218": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "MACROECONOMÍA ARGENTINA Y LATINOAMERICANA (A0219) A0219": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "MÁQUINAS ELÉCTRICAS (A0220) A0220": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "MÁQUINAS HIDRÁULICAS (A0221) A0221": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "MÁQUINAS TÉRMICAS (INGENIERÍA) (A0721) A0721": {
+      "COM-01": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "MATEMÁTICA APLICADA (A0223) A0223": {
+      "COM-01": [],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "MATEMÁTICA DISCRETA (A0234) A0234": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "12:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "MATEMÁTICA GENERAL (A0001) A0001": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "15:00",
+          "end": "17:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "17:59"
+        }
+      ]
+    },
+    "MATEMÁTICA PARA ECONOMISTAS I (A0225) A0225": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "MATEMÁTICA PARA ECONOMISTAS II (A0226) A0226": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Viernes",
+          "start": "14:00",
+          "end": "17:59"
+        }
+      ]
+    },
+    "MATEMÁTICA PARA ECONOMISTAS III (A0227) A0227": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "MECÁNICA DE LOS FLUIDOS (A0228) A0228": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "MECÁNICA ELEMENTAL (A0229) A0229": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "MECÁNICA Y MECANISMOS (A0743) A0743": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "MECANISMOS Y ELEMENTOS DE MÁQUINA (A0232) A0232": {
+      "COM-01": []
+    },
+    "MECANISMOS Y ELEMENTOS DE MÁQUINAS A (A0233) A0233": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "MEDIOS DE REPRESENTACIÓN (A0664) A0664": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "MEDIOS MASIVOS Y SISTEMAS POLÍTICOS (A0235) A0235": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "METAFÍSICA (A0237) A0237": {
+      "COM-01": []
+    },
+    "METODOLOGÍA DE LA INVESTIGACIÓN CUANTITATIVA (A0241) A0241": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "METODOLOGÍA DE LA INVESTIGACIÓN CUANTITATIVA APLICADA A LA EDUCACIÓN (A0187) A0187": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "METODOLOGÍA DE LA INVESTIGACIÓN EN ECONOMÍA (A0243) A0243": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "METODOLOGÍA DE LA PROGRAMACIÓN (A0447) A0447": {
+      "COM-01": []
+    },
+    "MÉTODOS NUMÉRICOS (A0670) A0670": {
+      "COM-01": []
+    },
+    "MICROCONTROLADORES (A0448) A0448": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "MODELADO Y OPTIMIZACIÓN (A0535) A0535": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "NARRATIVA DE LOS SIGLOS XX Y XXI (A0493) A0493": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "OPERACIONES UNITARIAS I (A0560) A0560": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ORGANIZACIÓN DE LA PRODUCCIÓN (A0738) A0738": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ORGANIZACIÓN DE LA PRODUCCIÓN E INNOVACIÓN (A0249) A0249": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ORGANIZACIÓN DE LA PRODUCCIÓN I (A0250) A0250": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ORGANIZACIÓN DE LA PRODUCCIÓN III (A0252) A0252": {
+      "COM-01": []
+    },
+    "ORGANIZACIÓN DE LABORATORIOS (A0009) A0009": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ORGANIZACIÓN DEL COMPUTADOR (A0449) A0449": {
+      "COM-01": [],
+      "COM-02": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "ORGANIZACIÓN DEL COMPUTADOR I (A0522) A0522": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "ORGANIZACIÓN DEL COMPUTADOR II (A0530) A0530": {
+      "COM-01": []
+    },
+    "ORGANIZACIÓN INDUSTRIAL (A0255) A0255": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "ORGANIZACIONES Y COMUNICACIÓN (A0256) A0256": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PEDAGOGÍA (A0257) A0257": {
+      "COM-01": []
+    },
+    "PERSPECTIVA DE GENEROS: APORTES Y DEBATES (A0606) A0606": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PERSPECTIVAS Y PROBLEMAS DEL URBANISMO ACTUAL (A0258) A0258": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PLANEAMIENTO Y CONTROL ORGANIZACIONAL (A0260) A0260": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "11:00",
+          "end": "12:59"
+        },
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PLANIFICACIÓN Y EVALUACIÓN DE PROYECTOS COMUNICATIVOS (A0262) A0262": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PLANIFICACIÓN Y GESTIÓN TERRITORIAL (A0263) A0263": {
+      "COM-01": []
+    },
+    "PLANIFICACIÓN Y PROCESO DECISORIO EN LAS ORGANIZACIONES (A0515) A0515": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "POLÍTICA (A0264) A0264": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "15:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ]
+    },
+    "POLÍTICA, ACTORES Y LEGISLACIÓN DE LA GESTIÓN AMBIENTAL (A0272) A0272": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "POLÍTICA ECONÓMICA (A0265) A0265": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "POLÍTICA SOCIAL COMPARADA (A0587) A0587": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "POLÍTICA SOCIAL I: POLÍTICA Y CUESTIÓN SOCIAL (A0267) A0267": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "POLÍTICA SOCIAL IV: ACTORES Y PROCESOS CULTURALES DE LAS POLÍTICAS SOCIALES (A0270) A0270": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "POLÍTICA SOCIAL V: ANÁLISIS DE LAS POLÍTICAS SOCIALES (A0271) A0271": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "POLÍTICAS CULTURALES Y GESTIÓN (A0273) A0273": {
+      "COM-01": []
+    },
+    "PORTUGUÉS I (A0275) A0275": {
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Lunes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Miércoles",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-10": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "PORTUGUÉS II (A0276) A0276": {
+      "COM-01": [],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Lunes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "PRACTICA PRE PROFESIONAL/ DE INVESTIGACION (CULTURA Y LENGUAJES ARTÍSTICOS) A0277": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "PRÁCTICA PROFESIONAL SUPERVISADA (A0607) A0607": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PRINCIPIOS DE BIOTECNOLOGÍA (A0570) A0570": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PROBABILIDAD Y ESTADÍSTICA (A0284) A0284": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PROBLEMAS CULTURALES LATINOAMERICANOS (A0285) A0285": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PROBLEMAS DE ARTE ARGENTINO Y LATINOAMERICANO II (A0287) A0287": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PROBLEMAS DE FILOSOFÍA (A0288) A0288": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "PROBLEMAS DE HISTORIA ARGENTINA CONTEMPORÁNEA (A0289) A0289": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PROBLEMAS DEL CONOCIMIENTO HISTÓRICO (A0290) A0290": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "PROBLEMAS, INSTITUCIONES Y POLÍTICAS DE SALUD (A0296) A0296": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "PROBLEMAS SOCIOECONÓMICOS CONTEMPORÁNEOS (A0002) A0002": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Lunes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Lunes",
+          "start": "14:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-10": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-11": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-12": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-13": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-14": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-15": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-16": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-17": [
+        {
+          "day": "Miércoles",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-18": [
+        {
+          "day": "Miércoles",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-19": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-20": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-21": [
+        {
+          "day": "Miércoles",
+          "start": "14:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-22": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-23": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-24": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-25": [
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-26": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-27": [
+        {
+          "day": "Jueves",
+          "start": "14:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-28": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-29": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-30": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-31": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-32": [
+        {
+          "day": "Viernes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-33": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-34": [
+        {
+          "day": "Viernes",
+          "start": "16:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-35": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-36": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-37": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "PROBLEMÁTICA EDUCATIVA (A0298) A0298": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PROCESOS INDUSTRIALES (A0300) A0300": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PROGRAMACIÓN I (A0450) A0450": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-08": []
+    },
+    "PROGRAMACIÓN II (A0451) A0451": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "PROGRAMACIÓN III (A0452) A0452": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "PROGRAMACIÓN Y MÉTODOS NUMÉRICOS A0301": {
+      "COM-01": []
+    },
+    "PROGRAMAS DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA (A0453) A0453": {
+      "COM-01": []
+    },
+    "PROYECTO PROFESIONAL I (A0528) A0528": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PROYECTO PROFESIONAL II (A0531) A0531": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "PSICOLOGÍA GENERAL (A0305) A0305": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "QUÍMICA AMBIENTAL (A0014) A0014": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "QUÍMICA ANALÍTICA I (A0012) A0012": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "QUÍMICA GENERAL (A0003) A0003": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "QUÍMICA INORGÁNICA (A0004) A0004": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "16:59"
+        },
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "QUÍMICA ORGÁNICA (A0007) A0007": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "RÉGIMEN TRIBUTARIO (A0517) A0517": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "RESIDENCIA I EN EDUCACIÓN (A0801) A0801": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "RESIDENCIA I. LA ESCUELA: ÁMBITO DEL TRABAJO DOCENTE (A0306) A0306": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "15:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Martes",
+          "start": "16:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "16:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "14:00",
+          "end": "15:59"
+        },
+        {
+          "day": "Miércoles",
+          "start": "16:00",
+          "end": "17:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "ROBOTICA TECNICA (A0633) A0633": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SEMÁNTICA, PRAGMÁTICA Y ESTUDIOS DEL TEXTO (A0488) A0488": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "SEMINARIO (ADMINISTRACIÓN PÚBLICA) (A0313) A0313": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SEMINARIO: ANÁLISIS DE DATOS PARA COMUNICACIÓN (A0809) A0809": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SEMINARIO: ANALISIS Y EVALUACION DE ESTRATEGIAS COMUNICACIONALES (A0602) A0602": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "16:00",
+          "end": "17:59"
+        }
+      ]
+    },
+    "SEMINARIO DE AGENDA METROPOLITANA (A0315) A0315": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SEMINARIO DE EDUCACIÓN COMPARADA (A0316) A0316": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SEMINARIO DE EDUCACIÓN DE JÓVENES Y ADULTOS (A0317) A0317": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SEMINARIO DE COMUNICACIÓN COMUNITARIA (A0832) A0832": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SEMINARIO DE INVESTIGACIÓN EN HISTORIA (A0318) A0318": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "AMÉRICA LATINA. MODELOS, IDENTIDADES Y EXPERIENCIAS EN TENSIÓN (FINES DEL SIGLO A0811": {
+      "COM-01": []
+    },
+    "SEMINARIO DE INVESTIGACIÓN EN LINGÜÍSTICA Y LITERATURA: ESCRITORAS A0833": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SEMINARIO DE LECTURA Y PRODUCCIÓN FILOSÓFICA (A0319) A0319": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SEMINARIO SOBRE FILÓSOFO O CORRIENTE FILOSÓFICA (A0320) A0320": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SEMINARIO SUJETOS, DIVERSIDAD Y ACCESIBILIDAD (A0800) A0800": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SEMINARIO II: INTRODUCCIÓN A LOS PROBLEMAS DE LA FILOSOFÍA DEL LENGUAJE A0834": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "SEMINARIO TECNOLOGÍA Y EDUCACIÓN (A0777) A0777": {
+      "COM-01": []
+    },
+    "SEMIÓTICA DE LOS MEDIOS MASIVOS (A0324) A0324": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SISTEMAS DE CONTROL (A0455) A0455": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SISTEMAS DE GENERACIÓN, TRANSMISIÓN Y DISTRIBUCIÓN DE LA ENERGÍA ELÉCTRICA A0677": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SISTEMAS DE INFORMACIÓN (A0513) A0513": {
+      "COM-01": []
+    },
+    "SISTEMAS DE INFORMACIÓN CONTABLE (A0326) A0326": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "10:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "SISTEMAS DE INFORMACIÓN CONTABLE I (A0511) A0511": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "12:59"
+        },
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "10:59"
+        }
+      ]
+    },
+    "SISTEMAS DE INFORMACIÓN CONTABLE II (A0512) A0512": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SISTEMAS DE REPRESENTACIÓN (A0327) A0327": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "SISTEMAS DE SUPERVISIÓN INDUSTRIAL (A0456) A0456": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SISTEMAS OPERATIVOS Y REDES (A0457) A0457": {
+      "COM-01": [],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "SISTEMAS OPERATIVOS Y REDES I (A0523) A0523": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "SISTEMAS OPERATIVOS Y REDES II (A0533) A0533": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SOCIEDAD, CULTURA Y AMBIENTE (A0330) A0330": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "17:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "SOCIOLOGÍA (A0331) A0331": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "20:59"
+        }
+      ]
+    },
+    "SOCIOLOGÍA CLÁSICA (A0332) A0332": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "11:00",
+          "end": "12:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "14:59"
+        },
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "11:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SOCIOLOGÍA CONTEMPORÁNEA (A0334) A0334": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SOCIOLOGÍA DE LA CULTURA (A0335) A0335": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ]
+    },
+    "SOCIOLOGÍA DE LA EDUCACIÓN (A0336) A0336": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SOCIOLOGÍA INDUSTRIAL (A0337) A0337": {
+      "COM-01": []
+    },
+    "SOCIOLOGÍA POLÍTICA (A0338) A0338": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        },
+        {
+          "day": "Jueves",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        },
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "SUSTENTABILIDAD AMBIENTAL (A0340) A0340": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "TALLER DE APLICACIÓN II: ESCALA REGIONAL (A0459) A0459": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TALLER DE APLICACIÓN INICIAL (A0461) A0461": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TALLER DE DESARROLLO PROFESIONAL: ASESORAMIENTO INSTITUCIONAL (A0804) A0804": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TALLER DE DESARROLLO PROFESIONAL: ASESORAMIENTO INSTITUCIONAL (A0825) A0825": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TALLER DE DESARROLLO PROFESIONAL: DIDÁCTICA Y CURRICULUM (A0823) A0823": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TALLER DE DISEÑO Y PRODUCCIÓN DE MEDIOS GRÁFICOS II (A0345) A0345": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "16:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "TALLER DE ESCRITURA PERIODISTICA I (A0595) A0595": {
+      "COM-01": []
+    },
+    "TALLER DE EVALUACIÓN DE IMPACTO AMBIENTAL (A0348) A0348": {
+      "COM-01": []
+    },
+    "TALLER DE INTRODUCCIÓN A LA INGENIERÍA (A0662) A0662": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Viernes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Viernes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ]
+    },
+    "TALLER DE LECTURA Y ESCRITURA EN LAS DISCIPLINAS (A0621) A0621": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Lunes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-10": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-11": [
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-12": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-13": [
+        {
+          "day": "Martes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-14": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-15": [
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-16": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-17": [
+        {
+          "day": "Viernes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-18": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-19": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-20": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-21": [
+        {
+          "day": "Miércoles",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-22": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-23": [
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-24": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-25": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-26": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-27": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-28": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-29": [
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-30": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-31": [
+        {
+          "day": "Viernes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-32": [
+        {
+          "day": "Viernes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-33": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-34": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "10:59"
+        }
+      ],
+      "COM-35": [
+        {
+          "day": "Sábado",
+          "start": "11:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-36": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-37": [
+        {
+          "day": "Sábado",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-38": [
+        {
+          "day": "Sábado",
+          "start": "11:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-39": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "10:59"
+        }
+      ],
+      "COM-40": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-41": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-42": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-43": [
+        {
+          "day": "Sábado",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ]
+    },
+    "TALLER DE MEDIOS INTERACTIVOS (A0350) A0350": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "16:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TALLER DE MEMORIA DE LICENCIATURA (ECOLOGÍA) (A0351) A0351": {
+      "COM-01": []
+    },
+    "TALLER DE PRÁCTICA PRE-PROFESIONAL (ADMINISTRACIÓN PÚBLICA) (A0353) A0353": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TALLER DE PRÁCTICA PROFESIONAL (COMUNICACIÓN) (A0354) A0354": {
+      "COM-01": []
+    },
+    "TALLER DE PRODUCCIÓN AUDIOVISUAL I (A0356) A0356": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "16:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TALLER DE PRODUCCIÓN AUDIOVISUAL II (A0430) A0430": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TALLER DE RADIO I (A0359) A0359": {
+      "COM-01": []
+    },
+    "TALLER DE RADIO II (A0413) A0413": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TALLER DE TECNOLOGÍA (A0661) A0661": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:29"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "09:29"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:29"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:29"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:29"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Jueves",
+          "start": "19:30",
+          "end": "20:59"
+        }
+      ]
+    },
+    "TALLER DE UTILITARIOS (A0017) A0017": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "10:59"
+        }
+      ],
+      "COM-03": [],
+      "COM-04": [],
+      "COM-05": [],
+      "COM-06": [],
+      "COM-07": [],
+      "COM-08": []
+    },
+    "TALLER FINAL DE APLICACIÓN: PROYECTO CARTOGRÁFICO (A0462) A0462": {
+      "COM-01": []
+    },
+    "TALLER INICIAL COMÚN: TALLER DE LECTURA Y ESCRITURA (A0618) A0618": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-10": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-11": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-12": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-13": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-14": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-15": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-16": [
+        {
+          "day": "Viernes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-17": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "10:59"
+        }
+      ],
+      "COM-18": [
+        {
+          "day": "Sábado",
+          "start": "11:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-19": [
+        {
+          "day": "Lunes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-20": [
+        {
+          "day": "Lunes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-21": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-22": [
+        {
+          "day": "Martes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-23": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-24": [
+        {
+          "day": "Miércoles",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-25": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-26": [
+        {
+          "day": "Miércoles",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-27": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-28": [
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-29": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-30": [
+        {
+          "day": "Viernes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-31": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-32": [
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-33": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-34": [
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-35": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-36": [
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-37": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-38": [
+        {
+          "day": "Viernes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TALLER INICIAL OBLIGATORIO DEL ÁREA DE MATEMÁTICA (A0620) A0620": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Viernes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-10": [
+        {
+          "day": "Martes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-11": [
+        {
+          "day": "Miércoles",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-12": [
+        {
+          "day": "Miércoles",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-13": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-14": [
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-15": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-16": [
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-17": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-18": [
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-19": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ]
+    },
+    "TALLER INICIAL ORIENTADO: CIENCIAS EXACTAS (A0619) A0619": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Jueves",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-08": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-09": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "10:59"
+        }
+      ],
+      "COM-10": [
+        {
+          "day": "Sábado",
+          "start": "11:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-11": [
+        {
+          "day": "Sábado",
+          "start": "09:00",
+          "end": "10:59"
+        }
+      ],
+      "COM-12": [
+        {
+          "day": "Sábado",
+          "start": "11:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-13": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-14": [
+        {
+          "day": "Martes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-15": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-16": [
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-17": [
+        {
+          "day": "Viernes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-18": [
+        {
+          "day": "Viernes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-19": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-20": [
+        {
+          "day": "Miércoles",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-21": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-22": [
+        {
+          "day": "Jueves",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-23": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-24": [
+        {
+          "day": "Viernes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-25": [
+        {
+          "day": "Lunes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-26": [
+        {
+          "day": "Viernes",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-27": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "TALLER INICIAL ORIENTADO: CIENCIAS EXPERIMENTALES (A0624) A0624": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ]
+    },
+    "TALLER INICIAL ORIENTADO: CIENCIAS HUMANAS (A0623) A0623": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Jueves",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Lunes",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ]
+    },
+    "TALLER INICIAL ORIENTADO: CIENCIAS SOCIALES (A0622) A0622": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "08:00",
+          "end": "09:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Miércoles",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "14:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Martes",
+          "start": "15:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Lunes",
+          "start": "20:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Jueves",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ]
+    },
+    "TALLER INVESTIGACIÓN EDUCATIVA I (A0803) A0803": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TÉCNICAS E INSTRUMENTOS DE REPRESENTACIÓN II (A0362) A0362": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "TECNOLOGÍA MECÁNICA (A0686) A0686": {
+      "COM-01": [
+        {
+          "day": "Jueves",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEMAS DE FÍSICA (A0070) A0070": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEORÍA DE LA COMPUTACIÓN (A0526) A0526": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEORÍA DE LA EMPRESA Y DE LOS MERCADOS (A0367) A0367": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEORÍA DE LA INNOVACIÓN Y DEL CAMBIO TECNOLÓGICO (A0368) A0368": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEORÍA DE LA ORGANIZACIÓN (A0369) A0369": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-02": [
+        {
+          "day": "Martes",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-03": [
+        {
+          "day": "Miércoles",
+          "start": "09:00",
+          "end": "12:59"
+        },
+        {
+          "day": "Sábado",
+          "start": "10:00",
+          "end": "11:59"
+        }
+      ],
+      "COM-04": [
+        {
+          "day": "Miércoles",
+          "start": "09:00",
+          "end": "12:59"
+        }
+      ],
+      "COM-05": [
+        {
+          "day": "Martes",
+          "start": "13:00",
+          "end": "16:59"
+        }
+      ],
+      "COM-06": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ],
+      "COM-07": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEORÍA DEL CRECIMIENTO Y DESARROLLO ECONÓMICO (A0371) A0371": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEORÍA POLÍTICA CLÁSICA (A0372) A0372": {
+      "COM-01": [
+        {
+          "day": "Lunes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEORÍA POLÍTICA CONTEMPORÁNEA (A0373) A0373": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEORÍA Y DISEÑO DEL CURRICULUM (A0375) A0375": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEORÍAS CONTEMPORÁNEAS DE LA ECONOMÍA POLÍTICA I (A0378) A0378": {
+      "COM-01": [
+        {
+          "day": "Martes",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEORÍAS CONTEMPORÁNEAS DE LA ECONOMÍA POLÍTICA II (A0379) A0379": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TEORÍAS DE LA CULTURA I (A0380) A0380": {
+      "COM-01": [
+        {
+          "day": "Viernes",
+          "start": "18:00",
+          "end": "19:59"
+        }
+      ]
+    },
+    "TEORÍAS DE LA CULTURA II (A0381) A0381": {
+      "COM-01": [
+        {
+          "day": "Miércoles",
+          "start": "18:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "TÓPICOS DE COMERCIALIZACIÓN (A0514) A0514": {
+      "COM-01": []
+    }
+  }
+}

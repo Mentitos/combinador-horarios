@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combinador de Comisiones y Horarios</title>
+  <meta name="description" content="Herramienta web para combinar comisiones universitarias sin superposición de horarios a partir de ofertas académicas en PDF o JSON.">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- PDF.js Library (Local con fallback a CDN) -->
+  <script src="./vendor/pdf.min.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Header -->
+    <header class="app-header">
+      <div class="brand-section">
+        <div class="brand-logo" title="Combinador de Horarios">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+            <path d="M8 14h.01"></path>
+            <path d="M12 14h.01"></path>
+            <path d="M16 14h.01"></path>
+            <path d="M8 18h.01"></path>
+            <path d="M12 18h.01"></path>
+          </svg>
+        </div>
+        <div class="brand-title">
+          Combinador de Comisiones
+          <span class="brand-badge">Web v2.0</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button id="themeToggleBtn" class="btn-icon" title="Cambiar tema claro/oscuro" aria-label="Cambiar tema">
+          <svg id="themeIconSun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg id="themeIconMoon" style="display: none;" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Split Layout -->
+    <main class="main-layout">
+      <!-- Left Sidebar: Selection & Settings -->
+      <aside class="sidebar">
+        <div class="sidebar-content">
+          <!-- File Section -->
+          <section class="panel-card">
+            <div class="card-title">
+              <span>Archivo de Horarios</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+            </div>
+
+            <div id="dropzone" class="upload-dropzone">
+              <svg class="dropzone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="17 8 12 3 7 8"></polyline>
+                <line x1="12" y1="3" x2="12" y2="15"></line>
+              </svg>
+              <div class="dropzone-text">Arrastrá tu PDF o JSON aquí</div>
+              <div class="dropzone-sub">o usá los botones de carga directa</div>
+            </div>
+
+            <div class="upload-buttons">
+              <input type="file" id="pdfFileInput" accept=".pdf" style="display: none;">
+              <button type="button" class="btn-file" id="btnLoadPdf">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                Cargar PDF
+              </button>
+
+              <input type="file" id="jsonFileInput" accept=".json" style="display: none;">
+              <button type="button" class="btn-file" id="btnLoadJson">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                Cargar JSON
+              </button>
+            </div>
+
+            <!-- One-click load sample button -->
+            <button type="button" class="btn-sample" id="btnLoadSample">
+              <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              Cargar Oferta Académica 2026 (v08 de ejemplo)
+            </button>
+
+            <!-- File Status Pill -->
+            <div id="fileStatusPill" class="file-status-pill">
+              <div class="file-status-header">
+                <span id="lblFileName" class="file-status-name">Sin archivo cargado</span>
+              </div>
+              <span id="lblFileStats" class="file-status-stats">Cargá un archivo PDF o JSON para empezar.</span>
+            </div>
+          </section>
+
+          <!-- Career Filter Section (UNGS) -->
+          <section class="panel-card career-panel-card">
+            <div class="card-title">
+              <div style="display: flex; align-items: center; gap: 0.4rem;">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+                <span>Plan de Carrera (UNGS)</span>
+              </div>
+              <span id="careerCountBadge" class="career-badge-counter" style="display: none;">0/0</span>
+            </div>
+
+            <!-- Career Select Dropdown -->
+            <div class="career-select-wrap">
+              <select id="careerSelect" class="career-dropdown">
+                <option value="">Todas las carreras (Sin filtro)</option>
+                <!-- Populated dynamically by categories -->
+              </select>
+            </div>
+
+            <!-- Career Info Card (Visible when a career is selected) -->
+            <div id="careerInfoCard" class="career-info-card" style="display: none;">
+              <div class="career-info-header">
+                <span id="careerSelectedTitle" class="career-selected-title">Licenciatura en Economía Industrial</span>
+              </div>
+              
+              <!-- Progress & Counts -->
+              <div class="career-progress-stats">
+                <div class="career-stat-item">
+                  <span class="stat-label">Plan</span>
+                  <span id="statPlanTotal" class="stat-value">0</span>
+                </div>
+                <div class="career-stat-item">
+                  <span class="stat-label">En Oferta</span>
+                  <span id="statInOffer" class="stat-value">0</span>
+                </div>
+                <div class="career-stat-item">
+                  <span class="stat-label">Elegidas</span>
+                  <span id="statSelected" class="stat-value">0</span>
+                </div>
+              </div>
+
+              <div class="career-progress-bar-wrap">
+                <div id="careerProgressBar" class="career-progress-fill" style="width: 0%;"></div>
+              </div>
+
+              <!-- Quick action toggles -->
+              <div class="career-quick-actions">
+                <label class="career-toggle-label">
+                  <input type="checkbox" id="chkFilterOnlyCareer" checked>
+                  <span>Ver solo materias de esta carrera</span>
+                </label>
+                <button type="button" id="btnSelectAllCareer" class="btn-career-action">
+                  Seleccionar todas las disponibles
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Subjects Selection Section -->
+          <section class="panel-card">
+            <div class="card-title">
+              <span>Materias</span>
+              <span id="lblSelectionCount" class="selection-count-badge">Seleccionadas: 0</span>
+            </div>
+
+            <!-- Filter Search Box -->
+            <div class="search-input-wrap">
+              <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input type="text" id="filterInput" class="input-search" placeholder="Filtrar materias..." autocomplete="off">
+            </div>
+
+            <!-- Selection helper buttons -->
+            <div class="subject-selection-bar">
+              <div class="selection-actions">
+                <button type="button" class="btn-mini" id="btnSelectAll">Todas</button>
+                <button type="button" class="btn-mini" id="btnSelectNone">Ninguna</button>
+                <button type="button" class="btn-mini" id="btnInvertSelect">Invertir</button>
+              </div>
+            </div>
+
+            <!-- Scrollable Subjects List -->
+            <div id="subjectsListContainer" class="subjects-list-container">
+              <div style="padding: 1.5rem; text-align: center; color: var(--color-text-muted); font-size: 0.8rem;">
+                Cargá un archivo PDF para listar las materias.
+              </div>
+            </div>
+          </section>
+
+          <!-- Time Range Filter Section -->
+          <section class="panel-card">
+            <div class="card-title">
+              <span>Franja Horaria (Opcional)</span>
+            </div>
+
+            <div class="time-range-box">
+              <label class="time-range-toggle">
+                <input type="checkbox" id="chkTimeRange">
+                <span>Solo comisiones dentro de:</span>
+              </label>
+
+              <div class="time-inputs-row">
+                <div class="time-input-group">
+                  <input type="time" id="timeStart" class="input-time" value="08:00" disabled>
+                </div>
+                <span style="font-weight: 600; color: var(--color-text-muted);">a</span>
+                <div class="time-input-group">
+                  <input type="time" id="timeEnd" class="input-time" value="12:00" disabled>
+                </div>
+              </div>
+
+              <!-- Quick Presets -->
+              <div class="time-presets">
+                <button type="button" class="btn-preset" data-start="08:00" data-end="14:00" id="presetMorning" disabled>Mañana (08-14)</button>
+                <button type="button" class="btn-preset" data-start="14:00" data-end="18:00" id="presetAfternoon" disabled>Tarde (14-18)</button>
+                <button type="button" class="btn-preset" data-start="18:00" data-end="22:00" id="presetNight" disabled>Noche (18-22)</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Search Button -->
+          <button type="button" id="btnSearch" class="btn-primary-action" disabled>
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            Buscar combinaciones
+          </button>
+
+          <!-- Progress Bar -->
+          <div id="searchProgress" class="progress-container">
+            <div id="searchProgressBar" class="progress-bar indeterminate"></div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Right Main Content Area: Results & Timetable -->
+      <section class="content-area">
+        <!-- Results Summary Bar -->
+        <div class="results-header-bar">
+          <div id="lblSummary" class="summary-title">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" color="var(--color-primary)">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            Cargá un PDF y elegí las materias.
+          </div>
+
+          <!-- Combination Navigator -->
+          <div id="comboNavigator" class="combination-navigator" style="display: none;">
+            <span class="nav-label">Combinación</span>
+            <div class="spinbox-wrap">
+              <input type="number" id="spinComb" class="input-spinbox" value="1" min="1" max="1">
+            </div>
+            <span id="lblTotalCombos" class="total-combos-label">/ 0</span>
+            <button type="button" id="btnPrevComb" class="btn-nav">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+              Anterior
+            </button>
+            <button type="button" id="btnNextComb" class="btn-nav">
+              Siguiente
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- View Switcher Tabs & Export Toolbar -->
+        <div class="view-toolbar">
+          <div class="view-tabs">
+            <button type="button" class="tab-btn active" data-view="grid" id="tabGrid">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+              Grilla Semanal
+            </button>
+
+            <button type="button" class="tab-btn" data-view="table" id="tabTable">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="8" y1="6" x2="21" y2="6"></line>
+                <line x1="8" y1="12" x2="21" y2="12"></line>
+                <line x1="8" y1="18" x2="21" y2="18"></line>
+                <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                <line x1="3" y1="18" x2="3.01" y2="18"></line>
+              </svg>
+              Tabla de Horarios
+            </button>
+
+            <button type="button" class="tab-btn" data-view="cards" id="tabCards">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+              Detalle por Materia
+            </button>
+          </div>
+
+          <div class="export-actions">
+            <button type="button" class="btn-secondary" id="btnExportJson" title="Descargar combinaciones como JSON">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Exportar JSON
+            </button>
+
+            <button type="button" class="btn-secondary" id="btnPrintSchedule" title="Imprimir o guardar como PDF">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <rect x="6" y="14" width="12" height="8"></rect>
+              </svg>
+              Imprimir
+            </button>
+
+            <button type="button" class="btn-secondary" id="btnCopyClipboard" title="Copiar resumen al portapapeles">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              Copiar
+            </button>
+          </div>
+        </div>
+
+        <!-- Dynamic Results Views Container -->
+        <div class="results-view-scroll">
+          <!-- Empty Initial State -->
+          <div id="emptyState" class="empty-state">
+            <svg class="empty-state-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <div class="empty-state-title">Esperando materias</div>
+            <div class="empty-state-desc">
+              Cargá el archivo PDF o JSON de la oferta académica en el panel izquierdo, seleccioná las materias que deseás cursar y presioná "Buscar combinaciones".
+            </div>
+          </div>
+
+          <!-- View 1: Weekly Timetable Calendar Grid -->
+          <div id="viewGrid" class="view-panel" style="display: none;">
+            <div class="timetable-grid-card">
+              <div class="timetable-header">
+                <div class="timetable-title">Horario Semanal</div>
+                <div id="gridLegend" class="timetable-legend"></div>
+              </div>
+
+              <!-- Visual 2D Timetable -->
+              <div id="timetableGridWrapper" class="timetable-grid-wrapper">
+                <!-- Dynamically generated by JS -->
+              </div>
+
+              <!-- Asynchronous / Virtual courses footer -->
+              <div id="asyncEventsContainer" class="async-events-container" style="display: none;">
+                <div class="async-title">Comisiones Virtuales Asincrónicas</div>
+                <div id="asyncCardsList" class="async-cards-list"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- View 2: Table View (Exact desktop GUI match) -->
+          <div id="viewTable" class="view-panel" style="display: none;">
+            <div class="table-container">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Materia</th>
+                    <th>Comisión</th>
+                    <th>Día</th>
+                    <th>Horario</th>
+                    <th>Modalidad</th>
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                  <!-- Dynamically populated by JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- View 3: Subject Cards Breakdown View -->
+          <div id="viewCards" class="view-panel" style="display: none;">
+            <div id="cardsBreakdownGrid" class="cards-breakdown-grid">
+              <!-- Dynamically populated by JS -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Toast Notifications Container -->
+    <div id="toastContainer" class="toast-container"></div>
+  </div>
+
+  <!-- Application Logic (ES Module) -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
