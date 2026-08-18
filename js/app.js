@@ -51,7 +51,8 @@ const elements = {
   pdfFileInput: document.getElementById('pdfFileInput'),
   btnLoadJson: document.getElementById('btnLoadJson'),
   jsonFileInput: document.getElementById('jsonFileInput'),
-  btnLoadSample: document.getElementById('btnLoadSample'),
+  btnLoadSampleV08: document.getElementById('btnLoadSampleV08'),
+  btnLoadSampleV11: document.getElementById('btnLoadSampleV11'),
   lblFileName: document.getElementById('lblFileName'),
   lblFileStats: document.getElementById('lblFileStats'),
 
@@ -237,7 +238,8 @@ function setupEventListeners() {
   elements.btnLoadJson.addEventListener('click', () => elements.jsonFileInput.click());
   elements.jsonFileInput.addEventListener('change', handleJsonFileSelect);
 
-  elements.btnLoadSample.addEventListener('click', loadSampleOffer);
+  elements.btnLoadSampleV08.addEventListener('click', () => loadSamplePdfFile('./data/oferta-academica-v08.pdf', 'Oferta-Academica-2-2026-v08.pdf'));
+  elements.btnLoadSampleV11.addEventListener('click', () => loadSamplePdfFile('./data/oferta-academica-v11.pdf', 'Oferta-Academica-v11-CON-AULAS.pdf'));
 
   // Drag & Drop
   elements.dropzone.addEventListener('click', () => elements.pdfFileInput.click());
@@ -389,27 +391,24 @@ async function preloadSampleData() {
 }
 
 /**
- * Carga la oferta de ejemplo al hacer clic en el botón
+ * Carga un PDF de ejemplo (v08 o v11) directamente en el navegador
  */
-async function loadSampleOffer() {
-  setLoadingProgress(true, 0, 'Cargando oferta académica de ejemplo...');
+async function loadSamplePdfFile(url, displayName) {
+  setLoadingProgress(true, 0, `Descargando y procesando ${displayName}...`);
   try {
-    const res = await fetch('./data/datos-v08.json');
-    if (!res.ok) {
-      const pdfRes = await fetch('./data/oferta-academica-v08.pdf');
-      if (!pdfRes.ok) throw new Error('No se pudo acceder al archivo de ejemplo local.');
-      const arrayBuffer = await pdfRes.arrayBuffer();
-      const parsed = await parsePdf(arrayBuffer, (cur, tot) => {
-        setLoadingProgress(true, Math.round((cur / tot) * 100), `Procesando página ${cur} de ${tot}...`);
-      });
-      onDataLoaded('Oferta-Academica-2-2026-v08.pdf', parsed);
-      return;
-    }
-    const data = await res.json();
-    onDataLoaded('Oferta-Academica-2-2026-v08.pdf (Ejemplo)', data);
-    showToast('Oferta académica de ejemplo cargada con éxito.', 'success');
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`No se pudo acceder al archivo ${displayName}`);
+    const arrayBuffer = await res.arrayBuffer();
+    const result = await parsePdf(arrayBuffer, (cur, tot, text) => {
+      const pct = Math.round((cur / tot) * 100);
+      setLoadingProgress(true, pct, `Procesando ${displayName} (${cur}/${tot})...`);
+    });
+
+    onDataLoaded(displayName, result);
+    showToast(`¡${displayName} cargado con éxito! (${result.metadata.subjectCount} materias, ${result.metadata.commissionCount} comisiones)`, 'success');
   } catch (err) {
-    showToast('Error al cargar oferta de ejemplo: ' + err.message, 'error');
+    console.error(err);
+    showToast(`Error al cargar ${displayName}: ` + err.message, 'error');
   } finally {
     setLoadingProgress(false);
   }

@@ -2,8 +2,8 @@
  * Combinador de Horarios - Universal PDF & JSON Parser
  * Compatible con:
  *  - Oferta Académica v08 (UNGS / universidades con formato similar)
- *  - Oferta Académica v11 (con fechas o códigos separados)
- *  - Formatos tabulares y de texto con días y rangos horarios
+ *  - Oferta Académica v11 (con aulas, docentes, instancias y fechas)
+ *  - Formatos tabulares adaptativos y de texto con días y rangos horarios
  *  - Archivos datos.json exportados o guardados
  */
 
@@ -19,35 +19,32 @@ const DAYS_MAP = {
   "domingo": "Domingo"
 };
 
-const DAY_ORDER = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
-
 /**
- * Limpia y normaliza el nombre de la materia eliminando códigos del tipo (A0075) o A0075
+ * Limpia y normaliza el nombre de la materia eliminando códigos del tipo (A0075) o A0075,
+ * fechas de encabezado, sellos de tiempo y números residuales.
  * @param {string} text 
  * @returns {string}
  */
 export function cleanSubjectName(text) {
   if (!text) return "";
   let s = text;
-  // Quitar códigos repetidos al final o al inicio
-  s = s.replace(/\s*\(A\d{4}\)\s*$/i, "");
-  s = s.replace(/\s*A\d{4}\s*$/i, "");
-  s = s.replace(/\s*\(A\d{4}\)\s*$/i, "");
-  s = s.replace(/^\s*A\d{4}\s+/i, "");
+  
+  // Quitar marcas temporales tipo 13/08/2026 17:27:06
+  s = s.replace(/\d{2}\/\d{2}\/\d{4}(?:\s+\d{2}:\d{2}(?::\d{2})?)?/g, "");
+  // Quitar encabezados de sede o título general
+  s = s.replace(/Sede\s+(?:Campus|Roca)[^]*/gi, "");
+  s = s.replace(/COMISIONES\s+DE\s+UN\s+PERIODO[^]*/gi, "");
+  
+  // Quitar códigos tipo (A0000) o A0000 repetidos al inicio o al final
+  for (let i = 0; i < 4; i++) {
+    s = s.replace(/\s*\(A\d{4}\)\s*$/i, "");
+    s = s.replace(/\s*A\d{4}\s*$/i, "");
+    s = s.replace(/^\s*A\d{4}\s+/i, "");
+    s = s.replace(/^\s*\(A\d{4}\)\s*/i, "");
+  }
+  
   s = s.replace(/\s+/g, " ").trim();
   return s;
-}
-
-/**
- * Normaliza formato de horario a "HH:MM"
- * @param {string} hStr 
- * @param {string} mStr 
- * @returns {string}
- */
-function formatTimeSlot(hStr, mStr) {
-  const h = parseInt(hStr, 10);
-  const m = parseInt(mStr || "0", 10);
-  return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
 }
 
 /**
@@ -55,7 +52,6 @@ function formatTimeSlot(hStr, mStr) {
  */
 export function initPdfJs() {
   if (typeof window !== "undefined" && window.pdfjsLib) {
-    // Intentar worker local, fallback a CDN
     if (!window.pdfjsLib.GlobalWorkerOptions.workerSrc) {
       window.pdfjsLib.GlobalWorkerOptions.workerSrc = "./vendor/pdf.worker.min.js";
     }
@@ -64,6 +60,8 @@ export function initPdfJs() {
 
 /**
  * Parsea un archivo PDF (ArrayBuffer o Uint8Array) directamente en el navegador.
+ * Soporta de forma adaptativa tanto el formato v08 (retrato) como el v11 (apaisado con aulas).
+ * 
  * @param {ArrayBuffer | Uint8Array} pdfData 
  * @param {function(number, number, string): void} [onProgress] (current, total, statusText)
  * @returns {Promise<{subjects: Record<string, Record<string, Array<{day: string, start: string, end: string}>>>, metadata: {totalPages: number, subjectCount: number, commissionCount: number}}>}
@@ -81,7 +79,6 @@ export async function parsePdf(pdfData, onProgress = null) {
   const subjects = {};
   let lastSubjectName = null;
 
-  // Extraer texto y elementos estructurados página por página
   for (let pageNum = 1; pageNum <= numPages; pageNum++) {
     if (onProgress) {
       onProgress(pageNum, numPages, `Procesando página ${pageNum} de ${numPages}...`);
@@ -92,7 +89,7 @@ export async function parsePdf(pdfData, onProgress = null) {
     const pageHeight = viewport.height;
     const textContent = await page.getTextContent();
 
-    // Convertir items a coordenadas absolutas estándar (y=0 arriba, y=pageHeight abajo)
+    // Convertir items a coordenadas estándar (y=0 arriba, y=pageHeight abajo)
     const items = textContent.items
       .filter(it => it.str && it.str.trim().length > 0)
       .map(it => {
@@ -113,19 +110,19 @@ export async function parsePdf(pdfData, onProgress = null) {
 
     if (items.length === 0) continue;
 
-    // Detectar encabezado de la tabla para descartar títulos superiores
+    // Detectar encabezado de la tabla para ignorar metadatos superiores
     let headerY = 50.0;
     for (const it of items) {
       const lower = it.str.toLowerCase();
-      if (lower.includes("actividad") || lower.includes("comisión") || lower.includes("comision") || lower.includes("horario") || lower.includes("tipo de clase")) {
+      if (lower.includes("actividad") || lower.includes("comisión") || lower.includes("comision") || lower.includes("horario") || lower.includes("dictado") || lower.includes("tipo de clase")) {
         headerY = Math.max(headerY, it.y1);
       }
     }
 
-    const tableItems = items.filter(it => it.y0 >= headerY - 3.0);
+    const tableItems = items.filter(it => it.y0 >= headerY - 1.0);
     if (tableItems.length === 0) continue;
 
-    // Agrupar elementos por líneas horizontales de texto (umbral vertical ~ 3.5px)
+    // Agrupar elementos en líneas de texto horizontales (umbral ~ 3.5px)
     tableItems.sort((a, b) => a.y0 - b.y0 || a.x0 - b.x0);
     const lines = [];
     for (const it of tableItems) {
@@ -136,47 +133,46 @@ export async function parsePdf(pdfData, onProgress = null) {
       }
     }
 
-    // Estrategia 1: Detección por Anclas de Comisión (v08 / v11 / adaptativo)
+    // Buscar anclas de comisión en cualquier columna (adaptativo para v08 en x~430 o v11 en x~200)
     const comAnchors = [];
     for (let lIdx = 0; lIdx < lines.length; lIdx++) {
       const line = lines[lIdx];
       line.sort((a, b) => a.x0 - b.x0);
 
-      // Concatenar tokens en la columna de comisiones (aprox x entre 350 y 500)
-      const comColItems = line.filter(it => it.x0 >= 350 && it.x0 <= 490);
-      const comColText = comColItems.map(it => it.str).join(" ");
-      const match = comColText.match(/COM[-\s]*(\d+)/i) || comColText.match(/COMISIÓN\s*(\d+)/i);
+      for (let i = 0; i < line.length; i++) {
+        let text = line[i].str;
+        if (i < line.length - 1 && text.toUpperCase() === "COM") {
+          text = `COM-${line[i + 1].str}`;
+        }
 
-      if (match && comColItems.length > 0) {
-        const comNum = parseInt(match[1], 10);
-        const minY0 = Math.min(...comColItems.map(it => it.y0));
-        const maxY1 = Math.max(...comColItems.map(it => it.y1));
-        const minX0 = Math.min(...comColItems.map(it => it.x0));
-        const maxX1 = Math.max(...comColItems.map(it => it.x1));
-
-        comAnchors.push({
-          comNum: comNum,
-          comId: `COM-${String(comNum).padStart(2, '0')}`,
-          x0: minX0,
-          y0: minY0,
-          x1: maxX1,
-          y1: maxY1,
-          lineIdx: lIdx
-        });
+        const match = text.match(/COM[-\s]*(\d+)/i) || text.match(/COMISIÓN\s*(\d+)/i);
+        if (match) {
+          const comNum = parseInt(match[1], 10);
+          comAnchors.push({
+            comNum: comNum,
+            comId: `COM-${String(comNum).padStart(2, '0')}`,
+            x0: line[i].x0,
+            y0: line[i].y0,
+            x1: line[i].x1,
+            y1: line[i].y1,
+            lineIdx: lIdx
+          });
+          break; // Un ancla principal por línea
+        }
       }
     }
 
     if (comAnchors.length > 0) {
-      // Procesar cada comisión usando ventanas verticales
+      // Procesar cada comisión mediante ventanas verticales
       for (let i = 0; i < comAnchors.length; i++) {
         const anc = comAnchors[i];
         const yTop = (i > 0) ? (comAnchors[i - 1].y1 + anc.y0) / 2.0 : headerY;
-        const yBot = (i < comAnchors.length - 1) ? (anc.y1 + comAnchors[i + 1].y0) / 2.0 : pageHeight - 20.0;
+        const yBot = (i < comAnchors.length - 1) ? (anc.y1 + comAnchors[i + 1].y0) / 2.0 : pageHeight - 15.0;
 
         const sliceItems = tableItems.filter(it => it.y0 >= yTop - 2.5 && it.y1 <= yBot + 2.5);
 
-        // Extraer nombre de la materia (a la izquierda de la columna de comisiones)
-        const nameItems = sliceItems.filter(it => it.x1 <= anc.x0 + 4.0 && it.x0 < 390);
+        // Nombre de materia: todos los elementos a la izquierda de la columna de comisión
+        const nameItems = sliceItems.filter(it => it.x1 <= anc.x0 + 3.0);
         nameItems.sort((a, b) => Math.round(a.y0 / 4.0) - Math.round(b.y0 / 4.0) || a.x0 - b.x0);
         const rawName = nameItems.map(it => it.str).join(" ");
         const name = cleanSubjectName(rawName);
@@ -188,11 +184,10 @@ export async function parsePdf(pdfData, onProgress = null) {
 
         if (!targetSubject) continue;
 
-        // Extraer información de días y horarios (a la derecha de la columna de comisiones)
-        const schedItems = sliceItems.filter(it => it.x0 >= 470);
+        // Horarios: todos los elementos a la derecha de la columna de comisión
+        const schedItems = sliceItems.filter(it => it.x0 >= anc.x1 - 3.0);
         schedItems.sort((a, b) => a.y0 - b.y0 || a.x0 - b.x0);
 
-        // Agrupar items de horarios por sublíneas
         const subLines = [];
         for (const si of schedItems) {
           if (subLines.length === 0 || Math.abs(si.y0 - subLines[subLines.length - 1][0].y0) > 3.5) {
@@ -207,7 +202,6 @@ export async function parsePdf(pdfData, onProgress = null) {
           sl.sort((a, b) => a.x0 - b.x0);
           const slText = sl.map(it => it.str).join(" ");
 
-          // Buscar día
           let foundDay = null;
           const lowerSl = slText.toLowerCase();
           for (const [dayKey, dayNorm] of Object.entries(DAYS_MAP)) {
@@ -217,33 +211,39 @@ export async function parsePdf(pdfData, onProgress = null) {
             }
           }
 
-          // Buscar rango horario (ej: "18:00 a 20:59", "08:00 - 12:00", "8:00 a 10:00")
           const timeMatch = slText.match(/(\d{1,2}:\d{2})\s*(?:a|-|hasta)\s*(\d{1,2}:\d{2})/i);
           if (foundDay && timeMatch) {
             const startStr = timeMatch[1].padStart(5, '0');
             const endStr = timeMatch[2].padStart(5, '0');
             const block = { day: foundDay, start: startStr, end: endStr };
 
-            // Evitar duplicados idénticos en la misma comisión
             if (!blocks.some(b => b.day === block.day && b.start === block.start && b.end === block.end)) {
               blocks.push(block);
             }
           }
         }
 
-        // Si es una comisión asincrónica, blocks quedará como []
         if (!subjects[targetSubject]) {
           subjects[targetSubject] = {};
         }
-        subjects[targetSubject][anc.comId] = blocks;
+        if (!subjects[targetSubject][anc.comId]) {
+          subjects[targetSubject][anc.comId] = [];
+        }
+
+        // Agregar bloques detectados sin duplicar
+        const existingBlocks = subjects[targetSubject][anc.comId];
+        for (const b of blocks) {
+          if (!existingBlocks.some(eb => eb.day === b.day && eb.start === b.start && eb.end === b.end)) {
+            existingBlocks.push(b);
+          }
+        }
       }
     } else {
-      // Estrategia 2 (Fallback): Parseo secuencial por patrones de línea (útil para PDFs exportados como texto o v11 clásico)
+      // Fallback: parseo secuencial
       parseSequentialLines(lines, subjects, lastSubjectName);
     }
   }
 
-  // Contar estadísticas
   let subjectCount = Object.keys(subjects).length;
   let commissionCount = 0;
   for (const coms of Object.values(subjects)) {
@@ -265,7 +265,7 @@ export async function parsePdf(pdfData, onProgress = null) {
 }
 
 /**
- * Parseo de líneas de texto secuenciales para formatos alternativos o v11
+ * Parseo de líneas de texto secuenciales para formatos alternativos o texto plano
  */
 function parseSequentialLines(lines, subjects, fallbackSubjectName) {
   let currentSubject = fallbackSubjectName;
@@ -273,7 +273,6 @@ function parseSequentialLines(lines, subjects, fallbackSubjectName) {
   for (const line of lines) {
     const lineText = line.map(it => it.str).join(" ");
     
-    // Buscar código de comisión COM-XX o COM XX
     const comMatch = lineText.match(/(?:A\d{4}\s+)?COM[-\s]*(\d+)/i);
     const timeMatch = lineText.match(/(\d{1,2}:\d{2})\s*(?:a|-)\s*(\d{1,2}:\d{2})/i);
 
@@ -286,7 +285,6 @@ function parseSequentialLines(lines, subjects, fallbackSubjectName) {
       }
     }
 
-    // Buscar si la línea tiene nombre de materia
     const nameMatch = lineText.match(/^([A-ZÁÉÍÓÚÜÑ0-9\s,\.\-:\(\)]+?)(?:\s+A\d{4}\s+COM|\s+COM[-\s]*\d+|$)/);
     if (nameMatch && nameMatch[1].length > 4 && !comMatch && !timeMatch) {
       const candidateName = cleanSubjectName(nameMatch[1]);
@@ -322,7 +320,7 @@ function parseSequentialLines(lines, subjects, fallbackSubjectName) {
 }
 
 /**
- * Parsea un archivo datos.json (texto JSON o FileReader)
+ * Parsea un archivo datos.json
  * @param {string} jsonString 
  * @returns {{subjects: Record<string, Record<string, Array<{day: string, start: string, end: string}>>>, metadata: {totalPages: number, subjectCount: number, commissionCount: number}}}
  */
