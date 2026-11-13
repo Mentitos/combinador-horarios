@@ -626,8 +626,22 @@ function renderSubjectsList() {
 /**
  * Activa o desactiva la selección de una materia
  */
+const MAX_SUBJECTS = 5;
+
 function toggleSubjectSelection(name, isSelected) {
   if (isSelected) {
+    if (state.selectedSubjects.size >= MAX_SUBJECTS) {
+      showToast(`Podés seleccionar hasta ${MAX_SUBJECTS} materias a la vez.`, 'info');
+      // Revertir el checkbox visualmente
+      const items = elements.subjectsListContainer.querySelectorAll('.subject-item');
+      items.forEach(it => {
+        if (it.dataset.name === name) {
+          const chk = it.querySelector('.subject-checkbox');
+          chk.checked = false;
+        }
+      });
+      return;
+    }
     state.selectedSubjects.add(name);
   } else {
     state.selectedSubjects.delete(name);
@@ -667,20 +681,28 @@ function filterSubjectsList(query) {
  */
 function selectAllVisible(stateVal) {
   const items = elements.subjectsListContainer.querySelectorAll('.subject-item');
+  let capped = false;
   items.forEach(it => {
     if (it.style.display !== 'none') {
       const chk = it.querySelector('.subject-checkbox');
       const name = it.dataset.name;
-      chk.checked = stateVal;
       if (stateVal) {
-        state.selectedSubjects.add(name);
-        it.classList.add('selected');
+        if (state.selectedSubjects.size < MAX_SUBJECTS) {
+          chk.checked = true;
+          state.selectedSubjects.add(name);
+          it.classList.add('selected');
+        } else {
+          chk.checked = false;
+          capped = true;
+        }
       } else {
+        chk.checked = false;
         state.selectedSubjects.delete(name);
         it.classList.remove('selected');
       }
     }
   });
+  if (capped) showToast(`Límite de ${MAX_SUBJECTS} materias alcanzado.`, 'info');
   updateSelectionCount();
 }
 
@@ -711,7 +733,9 @@ function invertSelection() {
  */
 function updateSelectionCount() {
   const count = state.selectedSubjects.size;
-  elements.lblSelectionCount.textContent = `Seleccionadas: ${count}`;
+  const atLimit = count >= MAX_SUBJECTS;
+  elements.lblSelectionCount.textContent = `Seleccionadas: ${count}/${MAX_SUBJECTS}`;
+  elements.lblSelectionCount.style.color = atLimit ? 'var(--color-warning)' : '';
 
   // Actualizar stats de carrera
   if (state.selectedCareerId && state.careerAnalysis) {
