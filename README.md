@@ -1,6 +1,8 @@
 # 📅 Combinador de Comisiones y Horarios (Versión Web)
 
-Aplicación web moderna y responsiva para combinar comisiones universitarias sin superposición de horarios, adaptada a partir del programa original en PySide6 y mejorada para funcionar directamente en el navegador con soporte para múltiples formatos de PDF (versión v08, versión v11 y genéricos).
+Hecho con odio y amor, pero más amor que odio.
+
+Saludos especiales a **Facu**, que hizo el proyecto original para Linux — yo básicamente agarré su trabajo, le puse el scrapeado web y lo tiré en un navegador. Gracias crack 🫡
 
 ---
 
@@ -32,46 +34,38 @@ Aplicación web moderna y responsiva para combinar comisiones universitarias sin
 
 ---
 
-## 💻 Cómo Ejecutar la Aplicación Web
+## 💻 Cómo Ejecutar Localmente
 
-### Opción 1: Con el script de inicio automático (Recomendada)
-Ejecutá en la terminal:
 ```bash
-/home/mati/combinador-horarios-web/iniciar-web.sh
-```
-o bien:
-```bash
-cd /home/mati/combinador-horarios-web
+cd combinador-horarios
 python3 server.py
 ```
-Esto abrirá automáticamente la aplicación en tu navegador web en `http://localhost:8000`.
+Abre `http://localhost:8000` en el navegador. O simplemente abrí `index.html` directamente.
 
-### Opción 2: Abrir directamente con tu navegador
-Podés abrir el archivo `index.html` con cualquier navegador:
-```bash
-firefox /home/mati/combinador-horarios-web/index.html
-```
+También está disponible online en: **https://mentitos.github.io/combinador-horarios/**
 
 ---
 
 ## 📂 Estructura del Proyecto
 
 ```
-combinador-horarios-web/
+combinador-horarios/
 ├── index.html               # Estructura principal de la aplicación web
 ├── css/
 │   └── styles.css           # Sistema de diseño, temas claro/oscuro y estilos responsivos
 ├── js/
 │   ├── app.js               # Lógica de la interfaz, eventos y vistas
 │   ├── pdf-parser.js        # Parser universal de PDFs y JSON en el navegador
-│   └── solver.js            # Algoritmo de combinación y resolución de superposiciones
+│   ├── solver.js            # Algoritmo de combinación y resolución de superposiciones
+│   ├── careers.js           # Lógica de filtrado por carrera
+│   └── careers-data.js      # Datos de carreras y materias
 ├── vendor/
 │   ├── pdf.min.js           # Motor de lectura de PDF (100% offline)
 │   └── pdf.worker.min.js    # Worker de procesamiento de PDF en segundo plano
 ├── data/
 │   ├── oferta-academica-v08.pdf  # PDF de ejemplo (v08)
 │   └── datos-v08.json            # JSON precargado de la oferta académica
-├── server.py                # Servidor local Python integrado
+├── server.py                # Servidor local Python
 ├── iniciar-web.sh           # Lanzador rápido
 └── README.md
 ```
