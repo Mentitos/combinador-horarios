@@ -1245,11 +1245,13 @@ button, input, select, textarea {
   color: white;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   border-left: 3px solid rgba(255, 255, 255, 0.5);
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
   z-index: 2;
+  gap: 0.2rem;
 }
 
 .grid-event-block:hover {
@@ -1258,24 +1260,52 @@ button, input, select, textarea {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
+/* Título del evento — clamp adaptativo */
 .event-subject-title {
   font-weight: 700;
-  line-height: 1.15;
-  margin-bottom: 0.15rem;
+  line-height: 1.2;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  flex-shrink: 1;
 }
 
+/* Bloques altos (≥ ~2.3h): el título puede mostrar más líneas */
+.grid-event-block.block--tall .event-subject-title {
+  -webkit-line-clamp: 4;
+  flex-shrink: 0;
+}
+
+/* Meta row: comisión + horario */
 .event-meta-row {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   font-size: 0.65rem;
   font-family: var(--font-mono);
   opacity: 0.92;
+  flex-shrink: 0;
+  gap: 0.2rem;
+  flex-wrap: wrap;
+}
+
+/* En bloques altos la meta va en columna con más espacio */
+.grid-event-block.block--tall .event-meta-row {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+  font-size: 0.7rem;
+}
+
+/* En bloques muy chicos (< 50px) solo mostramos el título en 1 línea */
+.grid-event-block.block--short .event-subject-title {
+  -webkit-line-clamp: 1;
+}
+
+.grid-event-block.block--short .event-meta-row {
+  display: none;
 }
 
 .async-events-container {

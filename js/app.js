@@ -1092,6 +1092,8 @@ function renderWeeklyGridView(combo, subjectColorMap) {
 
           const eventBlock = document.createElement('div');
           eventBlock.className = 'grid-event-block';
+          if (heightPx >= 110) eventBlock.classList.add('block--tall');
+          else if (heightPx < 50) eventBlock.classList.add('block--short');
           eventBlock.style.top = `${topPx}px`;
           eventBlock.style.height = `${heightPx}px`;
           eventBlock.style.backgroundColor = color.bg;
@@ -1100,8 +1102,8 @@ function renderWeeklyGridView(combo, subjectColorMap) {
           eventBlock.innerHTML = `
             <span class="event-subject-title" title="${subject}">${subject}</span>
             <div class="event-meta-row">
-              <span>${commission}</span>
-              <span>${b.start}-${b.end}</span>
+              <span class="event-commission">${commission}</span>
+              <span class="event-time">${b.start}–${b.end}</span>
             </div>
           `;
 
